@@ -9,8 +9,6 @@
     "productivity"
   ],
   "repository": "https://github.com/TECHNOBOT-OP/TECHNOBOT",
-  "website": "#TODO",
-  "success_url": "#TODO",
   "env": {
     "ENV": {
       "description": "Set this to ANYTHING will enable heroku.",
@@ -79,6 +77,8 @@
     "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
   },{
     "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
+
+    
   },{
     "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
   },{
@@ -89,6 +89,5 @@
     "url": "https://github.com/rahulps1000/heroku-buildpack-nodejs"
   },{
     "url": "heroku/python"
-  }],
-  "stack": "heroku-22"
-}
+  }]
+    }
